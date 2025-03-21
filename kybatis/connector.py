@@ -279,6 +279,6 @@ class Connector:
                                       f"{query}")
                     cursor.execute(query)
                 connection_obj.commit()
-                self._logger.info("commit: ", cursor.rowcount)
+                self._logger.info(f"commit: {cursor.rowcount}")
                 cursor.close()
         return
