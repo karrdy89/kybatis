@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='kybatis',
-    version='0.0.1',
+    version='0.0.2',
     license='Apache-2.0',
     description='minimal db utility in mybatis style',
     author='kyon',
